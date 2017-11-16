@@ -1,0 +1,9 @@
+        try{
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+            con = DriverManager.getConnection("jdbc:mysql://localhost:3306/test",
+                         "root", "1234");
+            _birdatabase= new BIRDatabase_Implemented("test");
+		}
+        catch (Exception ex) {
+                Logger.getLogger(PasswordArchiveUnit.class.getName()).log(Level.SEVERE, null, ex);
+            }

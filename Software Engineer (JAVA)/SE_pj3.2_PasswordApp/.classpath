@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.6"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/ang/My Documents/Eclipse/SE_pj3.2_PasswordApp/lib/BioAPIJava.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/ang/My Documents/Eclipse/SE_pj3.2_PasswordApp/lib/swing-layout-1.0.1.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/ang/My Documents/Eclipse/SE_pj3.2_PasswordApp/lib/classes12.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/ang/My Documents/Eclipse/SE_pj3.2_PasswordApp/lib/javax.servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/ang/My Documents/Eclipse/SE_pj3.2_PasswordApp/lib/net.sf.fjep.fatjar_0.0.31.jar"/>
+	<classpathentry kind="lib" path="C:/Documents and Settings/ang/My Documents/Eclipse/SE_pj3.2_PasswordApp/lib/ojdbc6.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

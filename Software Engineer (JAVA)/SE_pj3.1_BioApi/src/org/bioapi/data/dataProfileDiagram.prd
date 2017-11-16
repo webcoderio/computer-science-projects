@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ProfileDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="dataProfileDiagram" id="platform:/resource/SE_pj3.1_BioApi/src/org/bioapi/data/dataProfileDiagram.profile.uml#_uxTWUVI6Ed-I06g5goHBsw" metadata="uml2-1.0" tag="10" key="32303037303632392053455F706A332E315F42696F417069">
+  <model href="dataProfileDiagram.profile.uml#_uxTWUVI6Ed-I06g5goHBsw"/>
+  <diagramOptions xsi:type="options:ProfileDiagramOptions" level="0" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="0,0" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+</editmodel:ProfileDiagramEditModel>

@@ -1,0 +1,6 @@
+StartXfer
+demo2.txt
+12345
+abcde
+Done
+null

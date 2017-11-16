@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 36
+/svnroot/faint/!svn/ver/10/trunk/jni
+END
+opencv.h
+K 25
+svn:wc:ra_dav:version-url
+V 44
+/svnroot/faint/!svn/ver/2/trunk/jni/opencv.h
+END
+opencv.c
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/faint/!svn/ver/10/trunk/jni/opencv.c
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/svnroot/faint/!svn/ver/10/trunk/jni/makefile
+END

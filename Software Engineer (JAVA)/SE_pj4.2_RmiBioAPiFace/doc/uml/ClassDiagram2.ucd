@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editmodel:ClassDiagramEditModel xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:editmodel="editmodel.xmi" xmlns:options="options.xmi" name="ClassDiagram2" id="{UMLID=_TRmn8GfbEd-MarF5bEcbqw,JavaID=}" metadata="uml2-1.0" initialized="true" scrolledX="-6" tag="10" key="32303037303632392053455F706A342E325F526D6942696F41506946616365">
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.3/@sourceConnections.1" name="RecordDB" location="1397,1029" size="159,412" timstampe="82" stereotype="" id="{UMLID=_f7VvoGfbEd-MarF5bEcbqw,JavaID=/RecordDB}" runTimeClassModel="recordsList,conn,userName1,append_single_face(Ljava.lang.String;Lcom.neurotechnology.NImages.NImage;[B),subjectCaption,oracle_driver,userPassword1,selectAll(),maxImageID,maxID,getRecords(),getImagesByName(Ljava.lang.String;),pstmt,subjectCaptionSize,getImagesById(I),RecordDB(),rs,deleteDB(),append(Ljava.lang.String;Lcom.neurotechnology.NImages.NImage;Lcom.neurotechnology.Templates.NFRecord;),dbURL1">
+    <children xsi:type="editmodel:CompartmentEditModel" size="121,198">
+      <children xsi:type="editmodel:AttributeEditModel" name="oracle_driver" size="93,16" id="{UMLID=_f9RpUmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="dbURL1" size="67,16" id="{UMLID=_f9azQWfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userName1" size="84,16" id="{UMLID=_f8-HVGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userPassword1" size="107,16" id="{UMLID=_f9RpVGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="conn" size="53,16" id="{UMLID=_f809ZmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="pstmt" size="55,16" id="{UMLID=_f809YGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rs" size="39,16" id="{UMLID=_f9H4VGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxID" size="58,16" id="{UMLID=_f8rMZGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="maxImageID" size="86,16" id="{UMLID=_f9RpVmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="recordsList" size="90,21" id="{UMLID=_f8YRcGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="subjectCaption" size="100,16" id="{UMLID=_f9H4UGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="subjectCaptionSize" size="121,16" id="{UMLID=_f8-HUmfbEd-MarF5bEcbqw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="138,144">
+      <children xsi:type="editmodel:MethodEditModel" name="RecordDB" size="89,16" id="{UMLID=_f-KaIGfbEd-MarF5bEcbqw,JavaID=/RecordDB#RecordDB()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getRecords" size="96,16" id="{UMLID=_f9azQ2fbEd-MarF5bEcbqw,JavaID=/RecordDB#getRecords()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImagesById" size="110,16" id="{UMLID=_f-ULIGfbEd-MarF5bEcbqw,JavaID=/RecordDB#getImagesById(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="selectAll" size="81,16" id="{UMLID=_f-nGEWfbEd-MarF5bEcbqw,JavaID=/RecordDB#selectAll()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="append" size="76,16" id="{UMLID=_f9kkQGfbEd-MarF5bEcbqw,JavaID=/RecordDB#append(Ljava.lang.String;Lcom.neurotechnology.NImages.NImage;Lcom.neurotechnology.Templates.NFRecord;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="deleteDB" size="83,16" id="{UMLID=_f-BQMWfbEd-MarF5bEcbqw,JavaID=/RecordDB#deleteDB()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="append_single_face" size="138,16" id="{UMLID=_f-ULJWfbEd-MarF5bEcbqw,JavaID=/RecordDB#append_single_face(Ljava.lang.String;Lcom.neurotechnology.NImages.NImage;[B)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getImagesByName" size="129,16" id="{UMLID=_f-KaIWfbEd-MarF5bEcbqw,JavaID=/RecordDB#getImagesByName(Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_gA_rsWfbEd-MarF5bEcbqw}" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.0/@children.2" label="//@children.0/@sourceConnections.0/@children.0" sourceEnd="//@children.0/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="128,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="159,371" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,40"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_gVHhkGfbEd-MarF5bEcbqw}" source="//@children.0" target="//@children.2" targetEnd="//@children.0/@sourceConnections.1/@children.2" label="//@children.0/@sourceConnections.1/@children.0" sourceEnd="//@children.0/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="159,361" id="{UMLID=_gVHhkWfbEd-MarF5bEcbqw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.1/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1563,1369" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="recordsList" location="0,50" id="{UMLID=_f8YRcGfbEd-MarF5bEcbqw}" multiplicityLabel="//@children.0/@sourceConnections.1/@children.2/@children.0" roleLabel="//@children.0/@sourceConnections.1/@children.2/@children.1" navigable="true" flags="2">
+        <children xsi:type="editmodel:LabelEditModel" name="1..*" location="1882,1389" size="16,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="- recordsList" location="1836,1417" size="62,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" id="{UMLID=_h_gm0mfbEd-MarF5bEcbqw}" source="//@children.0" target="//@children.3" targetEnd="//@children.0/@sourceConnections.2/@children.2" label="//@children.0/@sourceConnections.2/@children.0" sourceEnd="//@children.0/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="rcd_db" location="0,195" id="{UMLID=_hSNb-GfbEd-MarF5bEcbqw}" attachSource="true" multiplicityLabel="//@children.0/@sourceConnections.2/@children.1/@children.0" roleLabel="//@children.0/@sourceConnections.2/@children.1/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1384,1231" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="rcd_db" location="1356,1203" size="34,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="244,557" id="{UMLID=_h_gm02fbEd-MarF5bEcbqw}" multiplicityLabel="//@children.0/@sourceConnections.2/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="1123,1251" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.5/@sourceConnections.1 //@children.3/@sourceConnections.2" name="ImageConverter" location="700,50" size="151,83" timstampe="640" stereotype="" id="{UMLID=_fFP1JmfbEd-MarF5bEcbqw,JavaID=/ImageConverter}" runTimeClassModel="bytesToImages([BLjava.lang.String;),imageToByteArray(Ljava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="130,36">
+      <children xsi:type="editmodel:MethodEditModel" name="imageToByteArray" size="130,16" id="{UMLID=_gWc-UGfbEd-MarF5bEcbqw,JavaID=/ImageConverter#imageToByteArray(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="bytesToImages" size="113,16" id="{UMLID=_gWwgUmfbEd-MarF5bEcbqw,JavaID=/ImageConverter#bytesToImages([BLjava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.0 //@children.0/@sourceConnections.1" name="Record" location="1905,1360" size="119,209" timstampe="7" stereotype="" id="{UMLID=_f8rMYWfbEd-MarF5bEcbqw,JavaID=/Record}" runTimeClassModel="getName(),getId(),setName(Ljava.lang.String;),name,tempalte,setTempalte([B),Id,getTempalte(),setId(I)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="69,54">
+      <children xsi:type="editmodel:AttributeEditModel" name="Id" size="37,16" id="{UMLID=_g15TYWfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="name" size="55,16" id="{UMLID=_g1wJcGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="tempalte" size="69,16" id="{UMLID=_g1wJcmfbEd-MarF5bEcbqw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="98,108">
+      <children xsi:type="editmodel:MethodEditModel" name="setId" size="63,16" id="{UMLID=_g15TY2fbEd-MarF5bEcbqw,JavaID=/Record#setId(I)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getId" size="63,16" id="{UMLID=_g2MOVWfbEd-MarF5bEcbqw,JavaID=/Record#getId()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setName" size="82,16" id="{UMLID=_g2DEY2fbEd-MarF5bEcbqw,JavaID=/Record#setName(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getName" size="82,16" id="{UMLID=_g2DEYGfbEd-MarF5bEcbqw,JavaID=/Record#getName()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="setTempalte" size="98,16" id="{UMLID=_g2V_UGfbEd-MarF5bEcbqw,JavaID=/Record#setTempalte([B)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getTempalte" size="98,16" id="{UMLID=_g2MOUGfbEd-MarF5bEcbqw,JavaID=/Record#getTempalte()}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" targetConnections="//@children.0/@sourceConnections.2 //@children.3/@sourceConnections.3" name="RmiServer" location="872,687" size="244,853" timstampe="5427" stereotype="" id="{UMLID=_hO7ecGfbEd-MarF5bEcbqw,JavaID=/RmiServer}" runTimeClassModel="extractMultiFaceImage(),main([Ljava.lang.String;),getFaceDetectedMultiFaceImageIcon(),getFaceDetectedImageIcon(Ljava.awt.image.BufferedImage;[Lcom.neurotechnology.Faces.DetectionDetails;Z),drawFace(Ljava.awt.image.BufferedImage;Lcom.neurotechnology.Faces.Face;Z),getSingleFaceImageIcon(),getFaceDetectionDetails(Lcom.neurotechnology.Faces.DetectionDetails;),multiFaceImage,extractAutomatically(Lcom.neurotechnology.NImages.NImage;),getFaceDetectedSingleFaceImageIcon(),SaveSingleFaceImageToDB(Ljava.lang.String;Ljava.lang.String;),getMultiFaceDetectionDetails(),matcher,extractor,isSingleFaceImageExtracted(),loadSingleFaceImage(Ljava.lang.String;),Save_SingleFaceImage_To_DB(Ljava.lang.String;Ljava.lang.String;),serialVersionUID,matchMultipleFaces(),loadMultiFaceImage(Ljava.lang.String;),refSingleFaceImage,ServerObj,extractedTemplates,getSingleFaceDetectionDetails(),templates,drawEyes(Ljava.awt.image.BufferedImage;Lcom.neurotechnology.Faces.Eyes;),rcd_db,RmiServer(),My_LoadFromFile(Ljava.lang.String;),sendMessage(Ljava.lang.String;),refTemplate,extractSingleFaceImage(),detdet,loadImageFromFile(Ljava.lang.String;),isMultiFaceImageExtracted(),extractUsingEyes(Lcom.neurotechnology.NImages.NImage;),getMultiFaceImageIcon(),getScaledRefImageIcon(),getMessage(),getDBVerifiedByName(Ljava.lang.String;),refDetdet,sendByteArrayImage([BLjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel" size="124,36">
+      <children xsi:type="editmodel:AttributeEditModel" name="ServerObj" size="84,21" id="{UMLID=_hSgW5WfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rcd_db" size="69,21" id="{UMLID=_hSNb-GfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="extractor" size="79,21" id="{UMLID=_hSNb9GfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="matcher" size="74,21" id="{UMLID=_hR6hBmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="multiFaceImage" size="108,21" id="{UMLID=_hSXM9WfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="refSingleFaceImage" size="130,21" id="{UMLID=_hSgW4WfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="detdet" size="65,21" id="{UMLID=_hRwwAmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="templates" size="81,21" id="{UMLID=_hSDq9GfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="extractedTemplates" size="124,16" id="{UMLID=_hRwwAGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="refDetdet" size="80,21" id="{UMLID=_hSgW42fbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="refTemplate" size="92,21" id="{UMLID=_hSXM82fbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" size="109,16" id="{UMLID=_hSXM8WfbEd-MarF5bEcbqw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="223,540">
+      <children xsi:type="editmodel:MethodEditModel" name="RmiServer" size="90,16" id="{UMLID=_hV8FYmfbEd-MarF5bEcbqw,JavaID=/RmiServer#RmiServer()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMessage" size="99,16" id="{UMLID=_hT_ko2fbEd-MarF5bEcbqw,JavaID=/RmiServer#getMessage()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" size="108,16" id="{UMLID=_hVfZdGfbEd-MarF5bEcbqw,JavaID=/RmiServer#sendMessage(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendByteArrayImage" size="142,16" id="{UMLID=_hUJVpGfbEd-MarF5bEcbqw,JavaID=/RmiServer#sendByteArrayImage([BLjava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSingleFaceImageExtracted" size="175,16" id="{UMLID=_hUTGpGfbEd-MarF5bEcbqw,JavaID=/RmiServer#isSingleFaceImageExtracted()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isMultiFaceImageExtracted" size="167,16" id="{UMLID=_hS9C0GfbEd-MarF5bEcbqw,JavaID=/RmiServer#isMultiFaceImageExtracted()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMultiFaceImageIcon" size="148,16" id="{UMLID=_hUcQkWfbEd-MarF5bEcbqw,JavaID=/RmiServer#getMultiFaceImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSingleFaceImageIcon" size="156,16" id="{UMLID=_hVCthGfbEd-MarF5bEcbqw,JavaID=/RmiServer#getSingleFaceImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScaledRefImageIcon" size="153,16" id="{UMLID=_hS9C02fbEd-MarF5bEcbqw,JavaID=/RmiServer#getScaledRefImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFaceDetectedSingleFaceImageIcon" size="223,16" id="{UMLID=_hUJVoWfbEd-MarF5bEcbqw,JavaID=/RmiServer#getFaceDetectedSingleFaceImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFaceDetectedMultiFaceImageIcon" size="215,16" id="{UMLID=_hVCtgWfbEd-MarF5bEcbqw,JavaID=/RmiServer#getFaceDetectedMultiFaceImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMultiFaceDetectionDetails" size="177,16" id="{UMLID=_hT2as2fbEd-MarF5bEcbqw,JavaID=/RmiServer#getMultiFaceDetectionDetails()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSingleFaceDetectionDetails" size="185,16" id="{UMLID=_hUvykmfbEd-MarF5bEcbqw,JavaID=/RmiServer#getSingleFaceDetectionDetails()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadMultiFaceImage" size="133,16" id="{UMLID=_hUmBkGfbEd-MarF5bEcbqw,JavaID=/RmiServer#loadMultiFaceImage(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractMultiFaceImage" size="147,16" id="{UMLID=_hUcQlGfbEd-MarF5bEcbqw,JavaID=/RmiServer#extractMultiFaceImage()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadSingleFaceImage" size="141,16" id="{UMLID=_hT_koGfbEd-MarF5bEcbqw,JavaID=/RmiServer#loadSingleFaceImage(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractSingleFaceImage" size="155,16" id="{UMLID=_hVyUYGfbEd-MarF5bEcbqw,JavaID=/RmiServer#extractSingleFaceImage()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadImageFromFile" size="128,16" id="{UMLID=_hVojYmfbEd-MarF5bEcbqw,JavaID=/RmiServer#loadImageFromFile(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="matchMultipleFaces" size="134,16" id="{UMLID=_hU48hGfbEd-MarF5bEcbqw,JavaID=/RmiServer#matchMultipleFaces()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractAutomatically" size="138,16" id="{UMLID=_hVfZcWfbEd-MarF5bEcbqw,JavaID=/RmiServer#extractAutomatically(Lcom.neurotechnology.NImages.NImage;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractUsingEyes" size="125,16" id="{UMLID=_hSzR0GfbEd-MarF5bEcbqw,JavaID=/RmiServer#extractUsingEyes(Lcom.neurotechnology.NImages.NImage;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFaceDetectionDetails" size="156,16" id="{UMLID=_hUmBk2fbEd-MarF5bEcbqw,JavaID=/RmiServer#getFaceDetectionDetails(Lcom.neurotechnology.Faces.DetectionDetails;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFaceDetectedImageIcon" size="170,16" id="{UMLID=_hTP9wWfbEd-MarF5bEcbqw,JavaID=/RmiServer#getFaceDetectedImageIcon(Ljava.awt.image.BufferedImage;[Lcom.neurotechnology.Faces.DetectionDetails;Z)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawFace" size="90,16" id="{UMLID=_hTjfwmfbEd-MarF5bEcbqw,JavaID=/RmiServer#drawFace(Ljava.awt.image.BufferedImage;Lcom.neurotechnology.Faces.Face;Z)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="drawEyes" size="90,16" id="{UMLID=_hVL3cmfbEd-MarF5bEcbqw,JavaID=/RmiServer#drawEyes(Ljava.awt.image.BufferedImage;Lcom.neurotechnology.Faces.Eyes;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" size="62,16" id="{UMLID=_hTZuxWfbEd-MarF5bEcbqw,JavaID=/RmiServer#main([Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDBVerifiedByName" size="147,16" id="{UMLID=_hUvylWfbEd-MarF5bEcbqw,JavaID=/RmiServer#getDBVerifiedByName(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SaveSingleFaceImageToDB" size="172,16" id="{UMLID=_hTGz0mfbEd-MarF5bEcbqw,JavaID=/RmiServer#SaveSingleFaceImageToDB(Ljava.lang.String;Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="Save_SingleFaceImage_To_DB" size="190,16" id="{UMLID=_hSqH4WfbEd-MarF5bEcbqw,JavaID=/RmiServer#Save_SingleFaceImage_To_DB(Ljava.lang.String;Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="My_LoadFromFile" size="124,16" id="{UMLID=_hVyUYWfbEd-MarF5bEcbqw,JavaID=/RmiServer#My_LoadFromFile(Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:InterfaceRealizationEditModel" size="2,1" autoLocated="true" id="{UMLID=_hPOZYGfbEd-MarF5bEcbqw}" source="//@children.3" target="//@children.4" targetEnd="//@children.3/@sourceConnections.0/@children.2" label="//@children.3/@sourceConnections.0/@children.0" sourceEnd="//@children.3/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="91,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,292" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="236,192"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_hx8r8WfbEd-MarF5bEcbqw}" source="//@children.3" target="//@children.0" targetEnd="//@children.3/@sourceConnections.1/@children.2" label="//@children.3/@sourceConnections.1/@children.0" sourceEnd="//@children.3/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="172,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="244,547" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,205"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_h3KjIWfbEd-MarF5bEcbqw}" source="//@children.3" target="//@children.1" targetEnd="//@children.3/@sourceConnections.2/@children.2" label="//@children.3/@sourceConnections.2/@children.0" sourceEnd="//@children.3/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="128,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,10" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="141,83"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_h_gm0GfbEd-MarF5bEcbqw}" source="//@children.3" target="//@children.3" targetEnd="//@children.3/@sourceConnections.3/@children.2" label="//@children.3/@sourceConnections.3/@children.0" sourceEnd="//@children.3/@sourceConnections.3/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ServerObj" location="0,20" id="{UMLID=_hSgW5WfbEd-MarF5bEcbqw}" anchorKind="FixedAtEdge" attachSource="true" multiplicityLabel="//@children.3/@sourceConnections.3/@children.1/@children.0" roleLabel="//@children.3/@sourceConnections.3/@children.1/@children.1" navigable="true">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="859,686" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="ServerObj" location="816,714" size="49,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="20,0" id="{UMLID=_h_gm0WfbEd-MarF5bEcbqw}" anchorKind="FixedAtEdge" multiplicityLabel="//@children.3/@sourceConnections.3/@children.2/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="899,666" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:InterfaceEditModel" targetConnections="//@children.5/@sourceConnections.0 //@children.5/@sourceConnections.2 //@children.3/@sourceConnections.0" name="RmiInterface" location="220,787" size="236,385" timstampe="1551" id="{UMLID=_e_vDAWfbEd-MarF5bEcbqw,JavaID=/RmiInterface}" runTimeClassModel="extractMultiFaceImage(),getFaceDetectedMultiFaceImageIcon(),getSingleFaceDetectionDetails(),sendMessage(Ljava.lang.String;),getSingleFaceImageIcon(),extractSingleFaceImage(),SaveSingleFaceImageToDB(Ljava.lang.String;Ljava.lang.String;),getMultiFaceDetectionDetails(),isMultiFaceImageExtracted(),isSingleFaceImageExtracted(),getMultiFaceImageIcon(),loadSingleFaceImage(Ljava.lang.String;),matchMultipleFaces(),loadMultiFaceImage(Ljava.lang.String;),getScaledRefImageIcon(),getMessage(),getDBVerifiedByName(Ljava.lang.String;),sendByteArrayImage([BLjava.lang.String;)">
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <children xsi:type="editmodel:CompartmentEditModel" size="215,324">
+      <children xsi:type="editmodel:MethodEditModel" name="getMessage" size="99,16" id="{UMLID=_hH7elGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#getMessage()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendMessage" size="108,16" id="{UMLID=_hIrFcmfbEd-MarF5bEcbqw,JavaID=/RmiInterface#sendMessage(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="sendByteArrayImage" size="142,16" id="{UMLID=_hIhUcmfbEd-MarF5bEcbqw,JavaID=/RmiInterface#sendByteArrayImage([BLjava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadMultiFaceImage" size="133,16" id="{UMLID=_hHeyoGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#loadMultiFaceImage(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractMultiFaceImage" size="147,16" id="{UMLID=_hJQ7UGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#extractMultiFaceImage()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMultiFaceImageIcon" size="148,16" id="{UMLID=_hHojoGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#getMultiFaceImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getFaceDetectedMultiFaceImageIcon" size="215,16" id="{UMLID=_hIYKhGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#getFaceDetectedMultiFaceImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getMultiFaceDetectionDetails" size="177,16" id="{UMLID=_hIYKgWfbEd-MarF5bEcbqw,JavaID=/RmiInterface#getMultiFaceDetectionDetails()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isMultiFaceImageExtracted" size="167,16" id="{UMLID=_hI-AY2fbEd-MarF5bEcbqw,JavaID=/RmiInterface#isMultiFaceImageExtracted()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="loadSingleFaceImage" size="141,16" id="{UMLID=_hIEogWfbEd-MarF5bEcbqw,JavaID=/RmiInterface#loadSingleFaceImage(Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getScaledRefImageIcon" size="153,16" id="{UMLID=_hHxtkGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#getScaledRefImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="extractSingleFaceImage" size="155,16" id="{UMLID=_hJHxY2fbEd-MarF5bEcbqw,JavaID=/RmiInterface#extractSingleFaceImage()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSingleFaceDetectionDetails" size="185,16" id="{UMLID=_hIOZgWfbEd-MarF5bEcbqw,JavaID=/RmiInterface#getSingleFaceDetectionDetails()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="isSingleFaceImageExtracted" size="175,16" id="{UMLID=_hJQ7UWfbEd-MarF5bEcbqw,JavaID=/RmiInterface#isSingleFaceImageExtracted()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="matchMultipleFaces" size="134,16" id="{UMLID=_hJHxYGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#matchMultipleFaces()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getSingleFaceImageIcon" size="156,16" id="{UMLID=_hI02cGfbEd-MarF5bEcbqw,JavaID=/RmiInterface#getSingleFaceImageIcon()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="SaveSingleFaceImageToDB" size="172,16" id="{UMLID=_hHxtk2fbEd-MarF5bEcbqw,JavaID=/RmiInterface#SaveSingleFaceImageToDB(Ljava.lang.String;Ljava.lang.String;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="getDBVerifiedByName" size="147,16" id="{UMLID=_hI02c2fbEd-MarF5bEcbqw,JavaID=/RmiInterface#getDBVerifiedByName(Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <children xsi:type="editmodel:ClassEditModel" name="RmiClient" location="50,152" size="140,543" timstampe="3145" stereotype="" id="{UMLID=_eja6cGfbEd-MarF5bEcbqw,JavaID=/RmiClient}" runTimeClassModel="main([Ljava.lang.String;),paintComponent(Ljava.awt.Graphics;),lImagePanel,refImageLabel,candImageButton,rightPanelDown,textArea,rightPanelUp,userName,serialVersionUID,ServerObj,refExtrButton,serverIp,RmiClient(),candExtrButton,lTextPanel,matchButton,actionPerformed(Ljava.awt.event.ActionEvent;),leftPanel,fileChooser,identImageButton,split,imageLabel,createJButton(Ljavax.swing.JFrame;Ljava.lang.String;Ljava.lang.String;Ljava.awt.Dimension;),imageFileFilter,saveImageButton,refImageButton">
+    <children xsi:type="editmodel:CompartmentEditModel" size="112,360">
+      <children xsi:type="editmodel:AttributeEditModel" name="serialVersionUID" size="109,16" id="{UMLID=_e_SXFmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageLabel" size="83,16" id="{UMLID=_e_bhAWfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="refImageLabel" size="97,16" id="{UMLID=_e-iwNGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="leftPanel" size="70,16" id="{UMLID=_e_ImEWfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lImagePanel" size="85,16" id="{UMLID=_e-Y_MmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="lTextPanel" size="78,16" id="{UMLID=_e-r6JGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rightPanelUp" size="89,16" id="{UMLID=_e_ImFWfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="rightPanelDown" size="105,16" id="{UMLID=_e-1rIWfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="matchButton" size="89,16" id="{UMLID=_e-1rI2fbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="candExtrButton" size="103,16" id="{UMLID=_e-r6JmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="candImageButton" size="112,16" id="{UMLID=_e-r6ImfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="refImageButton" size="102,16" id="{UMLID=_e_lSBGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="refExtrButton" size="93,16" id="{UMLID=_e9C7YGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="textArea" size="71,16" id="{UMLID=_e-1rJWfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="split" size="48,16" id="{UMLID=_e_SXEmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="fileChooser" size="84,16" id="{UMLID=_e--1E2fbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="imageFileFilter" size="102,21" id="{UMLID=_e_bhA2fbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="userName" size="78,16" id="{UMLID=_e_SXEGfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="serverIp" size="69,16" id="{UMLID=_e-Y_NmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="ServerObj" size="84,21" id="{UMLID=_e_lSBmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="saveImageButton" size="112,16" id="{UMLID=_e_lSAmfbEd-MarF5bEcbqw}"/>
+      <children xsi:type="editmodel:AttributeEditModel" name="identImageButton" size="111,16" id="{UMLID=_e_ImE2fbEd-MarF5bEcbqw}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel" size="119,90">
+      <children xsi:type="editmodel:MethodEditModel" name="paintComponent" size="117,16" id="{UMLID=_fBXasmfbEd-MarF5bEcbqw,JavaID=/RmiClient#paintComponent(Ljava.awt.Graphics;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="RmiClient" size="83,16" id="{UMLID=_e_vDA2fbEd-MarF5bEcbqw,JavaID=/RmiClient#RmiClient()}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="createJButton" size="107,16" id="{UMLID=_e_4M8mfbEd-MarF5bEcbqw,JavaID=/RmiClient#createJButton(Ljavax.swing.JFrame;Ljava.lang.String;Ljava.lang.String;Ljava.awt.Dimension;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="actionPerformed" size="119,16" id="{UMLID=_fBq8sWfbEd-MarF5bEcbqw,JavaID=/RmiClient#actionPerformed(Ljava.awt.event.ActionEvent;)}"/>
+      <children xsi:type="editmodel:MethodEditModel" name="main" size="62,16" id="{UMLID=_fBEfwGfbEd-MarF5bEcbqw,JavaID=/RmiClient#main([Ljava.lang.String;)}"/>
+    </children>
+    <children xsi:type="editmodel:CompartmentEditModel"/>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" id="{UMLID=_fPFGkWfbEd-MarF5bEcbqw}" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.0/@children.2" label="//@children.5/@sourceConnections.0/@children.0" sourceEnd="//@children.5/@sourceConnections.0/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="73,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="140,523" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="20,0"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:DependencyEditModel" size="2,1" autoLocated="true" id="{UMLID=_fQRZYWfbEd-MarF5bEcbqw}" source="//@children.5" target="//@children.1" targetEnd="//@children.5/@sourceConnections.1/@children.2" label="//@children.5/@sourceConnections.1/@children.0" sourceEnd="//@children.5/@sourceConnections.1/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="128,28" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="130,0" attachSource="true"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" location="0,73"/>
+    </sourceConnections>
+    <sourceConnections xsi:type="editmodel:AssociationEditModel" autoLocated="true" id="{UMLID=_fn0WsmfbEd-MarF5bEcbqw}" source="//@children.5" target="//@children.4" targetEnd="//@children.5/@sourceConnections.2/@children.2" label="//@children.5/@sourceConnections.2/@children.0" sourceEnd="//@children.5/@sourceConnections.2/@children.1" connectionRouterKind="Manhattan">
+      <children xsi:type="editmodel:WireLabelEditModel" size="0,14" fontInfo="Arial-8-0" anchorKind="MiddlePart"/>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ownedEnd" location="140,533" id="{UMLID=_fn0Ws2fbEd-MarF5bEcbqw}" attachSource="true" multiplicityLabel="//@children.5/@sourceConnections.2/@children.1/@children.0" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="197,664" size="6,14" fontInfo="Arial-8-0" anchorKind="FirstPart"/>
+      </children>
+      <children xsi:type="editmodel:AssociationEndEditModel" name="ServerObj" location="10,0" id="{UMLID=_e_lSBmfbEd-MarF5bEcbqw}" multiplicityLabel="//@children.5/@sourceConnections.2/@children.2/@children.0" roleLabel="//@children.5/@sourceConnections.2/@children.2/@children.1" navigable="true" flags="1">
+        <children xsi:type="editmodel:LabelEditModel" name="1" location="217,766" size="6,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+        <children xsi:type="editmodel:LabelEditModel" name="+ ServerObj" location="237,766" size="58,14" fontInfo="Arial-8-0" anchorKind="LastPart"/>
+      </children>
+    </sourceConnections>
+    <classifierPreferences xsi:type="editmodel:UMLClassDiagramClassifierPreference" attributeSorter="Natural" methodSorter="Natural" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showMethods="true" showAttributes="true" showLiterals="true" ShowInnerEntity="true"/>
+  </children>
+  <diagramOptions xsi:type="options:ClassDiagramOptions" properties="wireOptions=7" autoName="false"/>
+  <boardSetting snapToGeometry="true" gridEnabled="true" gridSpacing="14,14" gridOrigin="238,70" rulerUnit="cm" gridShow="true">
+    <leftRuler/>
+    <topRuler/>
+  </boardSetting>
+  <classDiagramPreferences xsi:type="editmodel:UMLClassDiagramPreference" attributeSorter="Natural" methodSorter="Natural" shortPackageNameFormat="true" showClassStereotype="true" showPackageStereotype="true" innerClassSorter="Natural" showPrivateAttributes="true" showProtectedAttributes="true" showPublicAttributes="true" showPackageAttributes="true" showStaticAttributes="true" showProtectedMethods="true" showPublicMethods="true" showPackageMethods="true" showPrivateMethods="true" showStaticMethods="true" showProtectedInnerClasses="true" showPublicInnerClasses="true" showPackageInnerClasses="true" showPrivateInnerClasses="true" showStaticInnerClasses="true" showInterfaceStereotype="true" showMethods="true" showAttributes="true" showLiterlas="true" showInnerEntity="true"/>
+</editmodel:ClassDiagramEditModel>

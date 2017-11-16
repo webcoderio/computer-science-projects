@@ -1,0 +1,12 @@
+<mainlib>
+	<lib>NCore.dll</lib>
+	<lib>NLicensing.dll</lib>
+	<lib>NImages.dll</lib>
+	<lib>NDeviceManager.dll</lib>
+	<lib>NTemplates.dll</lib>
+	<lib>NExtractors.dll</lib>
+	<lib>NMatchers.dll</lib>
+	<lib>NCluster.dll</lib>
+	<lib>NBiometricTools.dll</lib>
+	<lib>NeurotecJavaNative.dll</lib>
+</mainlib>

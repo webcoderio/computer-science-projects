@@ -1,0 +1,20 @@
+Welcome to Automobile Showroom!
+Please select from one of the following:
+====================================
+Please enter your Make Name (Word)!
+0: chevy
+1: toyota
+2: honda
+3: ford
+honda
+You have select the make: honda
+====================================
+Please enter your Model Name for honda (Word)
+0: civic
+1: accord
+2: odessy
+civic
+You have select the model: civic for honda
+====================================
+Honda is a Japanese Car maker
+Civic is a Econmoical model

@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri May 21 21:26:46 EDT 2010
+onejar.license.required=false
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=RmiClient.jar
+manifest.mergeall=true
+manifest.mainclass=RmiClient
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

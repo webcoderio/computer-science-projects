@@ -1,0 +1,22 @@
+This zip contains the following:
+
+dijkstra.py: To be filled in and submitted online.
+
+heap_id.py: Augmented heap implementation for use in Dijkstra's
+algorithm.
+
+nhpn.py: Library code used to parse data files, and put them into
+Nodes and Links.
+
+test_dijkstra.py: unittests for dijkstra.py
+
+visualize_path.py: Google maps test for dijkstra.py
+
+data/nhpn.nod: Vertices of highway graph.
+
+data/nhpn.lnk: Edges of highway graph.
+
+data/format.txt: Description of highway data.
+
+data/datadict.txt: More detailed description of highway data.
+

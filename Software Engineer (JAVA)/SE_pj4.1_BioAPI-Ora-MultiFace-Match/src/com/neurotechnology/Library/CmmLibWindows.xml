@@ -1,0 +1,5 @@
+<cmm>
+	<cmmlib>CmmDirectShow.dll</cmmlib>
+	<cmmlib>CmmProsilica.dll</cmmlib>
+	<cmmlib>PvAPI.dll</cmmlib>
+</cmm>

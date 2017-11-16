@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Fri Mar 05 07:47:00 EST 2010
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=SE_pj2.1_Rmi_fat.jar
+manifest.mergeall=true
+manifest.mainclass=RmiServer
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

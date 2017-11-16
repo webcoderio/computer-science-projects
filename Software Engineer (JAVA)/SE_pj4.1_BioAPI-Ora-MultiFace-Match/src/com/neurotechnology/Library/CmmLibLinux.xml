@@ -1,0 +1,5 @@
+<cmm>
+	<cmmlib>CmmProsilica.so</cmmlib>
+	<cmmlib>CmmV4L.so</cmmlib>
+	<cmmlib>libPvAPI.so</cmmlib>
+</cmm>

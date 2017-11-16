@@ -1,0 +1,29 @@
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/svnroot/faint/!svn/ver/27/trunk/test/de/offis/faint/detection/plugins/haar
+END
+Tools.java
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/svnroot/faint/!svn/ver/27/trunk/test/de/offis/faint/detection/plugins/haar/Tools.java
+END
+TestImageScaleVsPerformance.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/faint/!svn/ver/27/trunk/test/de/offis/faint/detection/plugins/haar/TestImageScaleVsPerformance.java
+END
+GetIntegralImagesPerformance.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/faint/!svn/ver/15/trunk/test/de/offis/faint/detection/plugins/haar/GetIntegralImagesPerformance.java
+END
+ImageStatisticsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svnroot/faint/!svn/ver/27/trunk/test/de/offis/faint/detection/plugins/haar/ImageStatisticsTest.java
+END

@@ -1,0 +1,12 @@
+<mainlib>
+	<lib>libNCore.so</lib>
+	<lib>libNLicensing.so</lib>
+	<lib>libNImages.so</lib>
+	<lib>libNDeviceManager.so</lib>
+	<lib>libNTemplates.so</lib>
+	<lib>libNExtractors.so</lib>
+	<lib>libNMatchers.so</lib>
+	<lib>libNCluster.so</lib>
+	<lib>libNBiometricTools.so</lib>
+	<lib>libNeurotecJavaNative.so</lib>
+</mainlib>

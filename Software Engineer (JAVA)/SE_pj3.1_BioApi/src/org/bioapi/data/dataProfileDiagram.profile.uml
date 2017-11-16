@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="ASCII"?>
+<uml:Profile xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/3.0.0/UML" xmi:id="_uxTWUVI6Ed-I06g5goHBsw" name="dataProfileDiagram">
+  <eAnnotations xmi:id="_uxTWUlI6Ed-I06g5goHBsw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+    <contents xmi:type="ecore:EPackage" xmi:id="_uxTWU1I6Ed-I06g5goHBsw" name="dataProfileDiagram" nsURI="http://dataProfileDiagramModel/schemas/dataProfileDiagram/_uxTWUFI6Ed-I06g5goHBsw/0" nsPrefix="dataProfileDiagram"/>
+  </eAnnotations>
+</uml:Profile>

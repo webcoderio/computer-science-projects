@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/svnroot/faint/!svn/ver/16/trunk/src/de/offis/faint/recognition/plugins/eigenfaces
+END
+CovarianceMatrix.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/faint/!svn/ver/2/trunk/src/de/offis/faint/recognition/plugins/eigenfaces/CovarianceMatrix.java
+END
+EigenfaceRecognition.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svnroot/faint/!svn/ver/16/trunk/src/de/offis/faint/recognition/plugins/eigenfaces/EigenfaceRecognition.java
+END
+EigenfaceSettingsPanel.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svnroot/faint/!svn/ver/2/trunk/src/de/offis/faint/recognition/plugins/eigenfaces/EigenfaceSettingsPanel.java
+END
+NearestHitsDialog.java
+K 25
+svn:wc:ra_dav:version-url
+V 104
+/svnroot/faint/!svn/ver/2/trunk/src/de/offis/faint/recognition/plugins/eigenfaces/NearestHitsDialog.java
+END
+EigenfaceBuilder.java
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/svnroot/faint/!svn/ver/2/trunk/src/de/offis/faint/recognition/plugins/eigenfaces/EigenfaceBuilder.java
+END

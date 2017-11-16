@@ -1,0 +1,6 @@
+Time: 9:05 | 1st customer enters | Serive duration expected: 40 | Total 6 Customer in Queue
+Time: 9:30 | 2nd customer enters | Serive duration expected: 35 | Total 5 Customer in Queue
+Time: 9:45 | 3th customer enters | Serive duration expected: 45 | Total 4 Customer in Queue
+Time: 10:20 | 4th customer enters | Serive duration expected: 30 | Total 3 Customer in Queue
+Time: 10:30 | 5th customer enters | Serive duration expected: 40 | Total 2 Customer in Queue
+Time: 10:50 | 6th customer enters | Serive duration expected: 15 | Total 1 Customer in Queue

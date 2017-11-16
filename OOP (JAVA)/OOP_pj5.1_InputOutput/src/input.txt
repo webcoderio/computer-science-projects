@@ -1,0 +1,3 @@
+The first part of this project is the completion of Lab 24 which involved creating a Java
+application that would read from one file and write a copy to another file. That completed
+project is provided to you, so you should study it and run it.

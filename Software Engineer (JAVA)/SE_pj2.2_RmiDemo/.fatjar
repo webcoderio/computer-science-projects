@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Thu Apr 08 10:00:39 EDT 2010
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=true
+onejar.checkbox=false
+jarname=SE_pj2.2_RmiDemo_fat.jar
+manifest.mergeall=true
+manifest.mainclass=RMI_BioAPI_Demo
+manifest.file=<createnew>
+jarname.isextern=false
+onejar.expand=
+excludes=
+includes=

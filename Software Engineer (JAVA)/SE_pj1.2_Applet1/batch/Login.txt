@@ -1,0 +1,6 @@
+user:sng
+pass:sng2
+
+Signed command:
+keytool -genkey -keystore
+password: c444eE
