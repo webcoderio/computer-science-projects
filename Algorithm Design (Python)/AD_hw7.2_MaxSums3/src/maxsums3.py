@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-# Author: Andy Ng <admin@webcoder.io>
-# Webcoder.io All Rights Reserved
+# Author: Andy Ng <andy@pcinvent.com>
+# PCinvent.com All Rights Reserved
 # Please do not delete the credit above!
 
 #  Given an array of n integers a_0,a_1,...,a_{n-1} positive

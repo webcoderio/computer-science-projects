@@ -2,8 +2,8 @@
   import javax.swing.JOptionPane;
   /**
   * 
-  *@author  Andy Ng <admin@webcoder.io>
-  Webcoder.io All Rights Reserved
+  *@author  Andy Ng <andy@pcinvent.com>
+  PCinvent.com All Rights Reserved
   Please do not delete the credit above!
   e-mail address is being protected from spam bots, you need JavaScript enabled to view it
   *

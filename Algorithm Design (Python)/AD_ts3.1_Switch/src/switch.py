@@ -1,5 +1,5 @@
-# Author: Andy Ng <admin@webcoder.io>
-# Webcoder.io All Rights Reserved
+# Author: Andy Ng <andy@pcinvent.com>
+# PCinvent.com All Rights Reserved
 # Please do not delete the credit above!
 def whichcities(M,Q, B):
    ## assume the lists Q and B are 1-indexed

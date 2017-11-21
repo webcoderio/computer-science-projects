@@ -3,9 +3,9 @@ import java.util.StringTokenizer;
 import javax.swing.JOptionPane;
 
 /**
- * @author  Andy Ng <admin@webcoder.io>
+ * @author  Andy Ng <andy@pcinvent.com>
  * @since   03/25/2009
- * Webcoder.io All Rights Reserved
+ * PCinvent.com All Rights Reserved
  * Please do not delete the credit above!
  */
 public class Project2 {

@@ -1,7 +1,7 @@
 #!/usr/bin/python
 
-# Author: Andy Ng <admin@webcoder.io>
-# Webcoder.io All Rights Reserved
+# Author: Andy Ng <andy@pcinvent.com>
+# PCinvent.com All Rights Reserved
 # Please do not delete the credit above!
 
 import unittest
